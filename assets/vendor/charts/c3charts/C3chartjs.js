@@ -272,14 +272,14 @@
                 bindto: "#c3chart_pie",
                 data: {
                     columns: [
-                        ['data1', 30],
-                        ['data2', 50]
+                        ['Femme', 30],
+                        ['Homme', 50]
                     ],
                     type: 'pie',
 
                     colors: {
-                         data1: '#5969ff',
-                        data2: '#ff407b'
+                         data2: '#5969ff',
+                        data1: '#ff407b'
 
 
                     }
@@ -287,7 +287,7 @@
                 pie: {
                     label: {
                         format: function(value, ratio, id) {
-                            return d3.format('$')(value);
+                            return d3.format('')(value) + '%';
                         }
                     }
                 }
