@@ -15,14 +15,14 @@ include_once '../header.php';
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">Genres</h2>
+                            <h2 class="pageheader-title">Inscrit</h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Utilisateurs</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Genres</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Inscrit</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -36,25 +36,11 @@ include_once '../header.php';
                     <!-- ============================================================== -->
                     <!--  combination chart  -->
                     <!-- ============================================================== -->
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
-                            <h5 class="card-header">Combination Chart </h5>
+                            <h5 class="card-header">Croissance des inscriptions</h5>
                             <div class="card-body">
-                                <div id="c3chart_combine"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ============================================================== -->
-                    <!--  end combination chart  -->
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
-                    <!-- pie chart  -->
-                    <!-- ============================================================== -->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header">Genres</h5>
-                            <div class="card-body">
-                                <div id="c3chart_pie"></div>
+                                <canvas id="chartjs_line"></canvas>
                             </div>
                         </div>
                     </div>
@@ -64,10 +50,10 @@ include_once '../header.php';
             <div class="footer">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             Copyright © 2018 VOGO. All rights reserved.</a>.
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="text-md-right footer-links d-none d-sm-block">
                                 <a href="javascript: void(0);">About</a>
                                 <a href="javascript: void(0);">Support</a>
@@ -92,6 +78,8 @@ include_once '../header.php';
     <script src="../assets/vendor/charts/c3charts/c3.min.js"></script>
     <script src="../assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
     <script src="../assets/vendor/charts/c3charts/C3chartjs.js"></script>
+    <script src="../assets/vendor/charts/charts-bundle/Chart.bundle.js"></script>
+    <script src="../assets/vendor/charts/charts-bundle/chartjs.js"></script>
     <script src="../assets/libs/js/main-js.js"></script>
 </body>
  

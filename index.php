@@ -28,6 +28,7 @@
         <!-- left sidebar -->
         <!-- ============================================================== -->
         <div class="nav-left-sidebar sidebar-dark">
+        <div  class="center"><img src="ressources/logo_vogo.png"></div>
             <div class="menu-list">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="d-xl-none d-lg-none" href="#">Tableau de bord</a>
@@ -54,9 +55,6 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/genre.php">Genres</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/decouverte.php">Decouverte</a>
                                         </li>
                                     </ul>
                                 </div>
