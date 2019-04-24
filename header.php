@@ -55,7 +55,7 @@
                                             <a class="nav-link" href="pages/chart-charts.html">Lieu</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-morris.html">Sexe</a>
+                                            <a class="nav-link" href="pages/genre.html">Genres</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-gauge.html">Decouverte</a>
