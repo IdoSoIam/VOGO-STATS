@@ -35,25 +35,11 @@ include_once '../header.php';
                 <!-- ============================================================== -->
                 <div class="row">
                     <!-- ============================================================== -->
-                    <!--  combination chart  -->
-                    <!-- ============================================================== -->
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header">Combination Chart </h5>
-                            <div class="card-body">
-                                <div id="c3chart_combine"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ============================================================== -->
-                    <!--  end combination chart  -->
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
                     <!-- pie chart  -->
                     <!-- ============================================================== -->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
-                            <h5 class="card-header">Genres</h5>
+                            <h5 class="card-header">Répartition du public</h5>
                             <div class="card-body">
                                 <div id="c3chart_pie"></div>
                             </div>
@@ -65,10 +51,10 @@ include_once '../header.php';
             <div class="footer">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             Copyright © 2018 VOGO. All rights reserved.</a>.
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="text-md-right footer-links d-none d-sm-block">
                                 <a href="javascript: void(0);">About</a>
                                 <a href="javascript: void(0);">Support</a>
