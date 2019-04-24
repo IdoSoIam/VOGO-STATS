@@ -7,7 +7,8 @@ include_once '../header.php';
     <!-- ============================================================== -->
         <!-- wrapper  -->
         <!-- ============================================================== -->
-        <div class="dashboard-wrapper">
+
+        <div class="dashboard-main-wrapper">
             <div class="container-fluid  dashboard-content">
                 <!-- ============================================================== -->
                 <!-- pageheader -->
