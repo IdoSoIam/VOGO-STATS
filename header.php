@@ -68,10 +68,10 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="index.php">Overview</a>
+                                            <a class="nav-link" href="../index.php">Overview</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="audience">Audience</a>
+                                            <a class="nav-link" href="audience.php">Audience</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="interaction.php">Interaction</a>
