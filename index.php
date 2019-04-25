@@ -66,20 +66,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Live</a>
-                                <div id="submenu-3" class="collapse submenu" style="">
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/audience">Audience</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/interaction.php">Interaction</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/team-overview.php">Team-overview</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <a class="nav-link" href="pages/live-overview.php">Live</a>
                             </li>
                         </ul>
                     </div>
