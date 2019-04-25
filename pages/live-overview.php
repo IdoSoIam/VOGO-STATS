@@ -1,8 +1,27 @@
 <?php $title = 'Live overwiew';
-require 'header.php' ?>
-<div class="dashboard-influence">
+require '../header.php' ?>
+<div class="container-fluid  dashboard-content dashboard-influence">
+<div class="row">
+
+
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-header">
+                            <h2 class="pageheader-title">Live overview</h2>
+                            <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Live</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Live overview</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                     <div class="row">
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 	                            <div class="card">
 	                                <div class="card-body">
 	                                    <div class="d-inline-block">
@@ -281,7 +300,6 @@ require 'header.php' ?>
                     <!-- end inventory turnover -->
                     <!-- ============================================================== -->
                 </div>
-            </div>
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
@@ -289,7 +307,7 @@ require 'header.php' ?>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>. 
+                            Copyright © 2018 VOGO. All rights reserved. 
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="text-md-right footer-links d-none d-sm-block">
@@ -305,6 +323,7 @@ require 'header.php' ?>
             <!-- end footer -->
             <!-- ============================================================== -->
         </div>
+        </div>
         <!-- ============================================================== -->
         <!-- end wrapper  -->
         <!-- ============================================================== -->
@@ -313,37 +332,37 @@ require 'header.php' ?>
     <!-- end main wrapper  -->
     <!-- ============================================================== -->
     <!-- jquery 3.3.1  -->
-    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <!-- bootstap bundle js -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <!-- slimscroll js -->
-    <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <!-- chart chartist js -->
-    <script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
-    <script src="assets/vendor/charts/chartist-bundle/Chartistjs.js"></script>
-    <script src="assets/vendor/charts/chartist-bundle/chartist-plugin-threshold.js"></script>
+    <script src="../assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+    <script src="../assets/vendor/charts/chartist-bundle/Chartistjs.js"></script>
+    <script src="../assets/vendor/charts/chartist-bundle/chartist-plugin-threshold.js"></script>
     <!-- chart C3 js -->
-    <script src="assets/vendor/charts/c3charts/c3.min.js"></script>
-    <script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+    <script src="../assets/vendor/charts/c3charts/c3.min.js"></script>
+    <script src="../assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
     <!-- chartjs js -->
-    <script src="assets/vendor/charts/charts-bundle/Chart.bundle.js"></script>
-    <script src="assets/vendor/charts/charts-bundle/chartjs.js"></script>
+    <script src="../assets/vendor/charts/charts-bundle/Chart.bundle.js"></script>
+    <script src="../assets/vendor/charts/charts-bundle/chartjs.js"></script>
     <!-- sparkline js -->
-    <script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+    <script src="../assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
     <!-- dashboard finance js -->
-    <script src="assets/libs/js/dashboard-finance.js"></script>
+    <script src="../assets/libs/js/dashboard-finance.js"></script>
     <!-- main js -->
-    <script src="assets/libs/js/main-js.js"></script>
+    <script src="../assets/libs/js/main-js.js"></script>
     <!-- gauge js -->
-    <script src="assets/vendor/gauge/gauge.min.js"></script>
+    <script src="../assets/vendor/gauge/gauge.min.js"></script>
     <!-- morris js -->
-    <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
-    <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
-    <script src="assets/vendor/charts/morris-bundle/morrisjs.html"></script>
+    <script src="../assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+    <script src="../assets/vendor/charts/morris-bundle/morris.js"></script>
+    <script src="../assets/vendor/charts/morris-bundle/morrisjs.html"></script>
     <!-- daterangepicker js -->
     <script src="../../../../cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script src="../../../../cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script src="assets/libs/js/dashboard-influencer.js"></script>
+    <script src="../assets/libs/js/dashboard-influencer.js"></script>
 
     <script>
     $(function() {
