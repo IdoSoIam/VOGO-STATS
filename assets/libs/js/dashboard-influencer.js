@@ -7,8 +7,8 @@ $(function() {
     Morris.Donut({
         element: 'gender_donut',
         data: [
-            { value: 60, label: 'Female' },
-            { value: 40, label: 'Male' }
+            { value: 75, label: 'Hommes' },
+            { value: 25, label: 'Femmes' }
 
         ],
 
