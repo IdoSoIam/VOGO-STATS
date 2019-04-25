@@ -267,14 +267,18 @@
                 bindto: "#c3chart_pie",
                 data: {
                     columns: [
-                        ['Femme', 30],
-                        ['Homme', 50]
+                        ['data1', 30],
+                        ['data2', 50]
+                        
+                      
+
                     ],
                     type: 'pie',
 
                     colors: {
                          data2: '#5969ff',
                         data1: '#ff407b'
+                     
 
 
                     }
@@ -304,7 +308,9 @@
 
                     colors: {
                          data1: '#5969ff',
-                        data2: '#ff407b'
+                        data2: '#ff407b',
+                      
+                      
 
 
                     }
