@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../assets/vendor/charts/c3charts/c3.css">
     <link rel="stylesheet" href="../assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
+    <link rel="stylesheet" href="../assets/libs/css/colorbrewer.css">
+    <link rel="stylesheet" href="../assets/libs/css/svg.css">
     <title><?php if (isset($title)) {
       echo $title . ' | ';
     } ?>VOGO Admin</title>
@@ -53,7 +55,7 @@
                                             <a class="nav-link" href="age.php">Age</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="lieux.php">Lieu</a>
+                                            <a class="nav-link" href="lieux.php">Lieux</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="genre.php">Genres</a>
