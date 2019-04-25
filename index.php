@@ -51,7 +51,7 @@
                                             <a class="nav-link" href="pages/age.php">Age</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/lieux.php">Lieu</a>
+                                            <a class="nav-link" href="pages/lieux.php">Lieux</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/genre.php">Genres</a>

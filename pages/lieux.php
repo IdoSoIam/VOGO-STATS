@@ -15,14 +15,14 @@ include_once '../header.php';
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">Genres</h2>
+                            <h2 class="pageheader-title">Nombre d'inscrits par régions</h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Utilisateurs</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Genres</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Lieux</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -33,34 +33,9 @@ include_once '../header.php';
                 <!-- end pageheader -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <!-- ============================================================== -->
-                    <!--  combination chart  -->
-                    <!-- ============================================================== -->
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header">Combination Chart </h5>
-                            <div class="card-body">
-                                <div id="c3chart_combine"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ============================================================== -->
-                    <!--  end combination chart  -->
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
-                    <!-- pie chart  -->
-                    <!-- ============================================================== -->
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header">Genres</h5>
-                            <div class="card-body">
-                                <div id="c3chart_pie"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ============================================================== -->
-                    <!-- end pie chart  -->
-                    <!-- ============================================================== -->
+                    <div id="map"></div>
+                </div>
+
             <div class="footer">
                 <div class="container-fluid">
                     <div class="row">
@@ -93,6 +68,9 @@ include_once '../header.php';
     <script src="../assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
     <script src="../assets/vendor/charts/c3charts/C3chartjs.js"></script>
     <script src="../assets/libs/js/main-js.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="map.js"></script>
+
 </body>
  
 </html>
