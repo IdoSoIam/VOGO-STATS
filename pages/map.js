@@ -1,4 +1,4 @@
-const width = 700, height = 550;
+const width = 700, height = 600;
 
 // Create a path object to manipulate geo data
 const path = d3.geoPath();
