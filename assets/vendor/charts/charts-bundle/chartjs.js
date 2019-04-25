@@ -12,7 +12,7 @@
                                 labels: ['Jan', 'Fev', 'Mars', 'Avr', 'Mai', 'Juin', 'Juil', 'Aout', 'Sept', 'Oct', 'Nov', 'Dec'],
                                 datasets: [{
                                     label: 'Inscription',
-                                    data: [100, 140, 180, 200, 250, 280, 300, 365, 400, 430, 450, 470, 480, 500],
+                                    data: [6500, 6700, 6867, 7001, 7465, 7568, 8067, 8700, 8880, 9000, 9900, 10000],
 
                                     backgroundColor: "rgba(89, 105, 255,0.5)",
                                     borderColor: "rgba(89, 105, 255,0.7)",

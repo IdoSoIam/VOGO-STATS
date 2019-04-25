@@ -28,6 +28,7 @@
         <!-- left sidebar -->
         <!-- ============================================================== -->
         <div class="nav-left-sidebar sidebar-dark">
+        <div  class="center"><img src="ressources/logo_vogo.png"></div>
             <div class="menu-list">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="d-xl-none d-lg-none" href="#">Tableau de bord</a>
@@ -39,8 +40,11 @@
                             <li class="nav-divider">
                                 Menu
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.php">Accueil</a>
+                            </li>
                             <li class="nav-item ">
-                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Utilisateurs</a>
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Utilisateurs</a>
                                 <div id="submenu-1" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
@@ -65,9 +69,6 @@
                                 <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Live</a>
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/index.php">Overview</a>
-                                        </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/audience">Audience</a>
                                         </li>
@@ -433,7 +434,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                             Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://vogo.com/wp/">VOGO</a>.
+                             Copyright © 2018 VOGO. All rights reserved. Dashboard by <a target="_blank" href="http://www.vogosport.com/">VOGO</a>.
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="text-md-right footer-links d-none d-sm-block">
