@@ -44,8 +44,11 @@
                             <li class="nav-divider">
                                 Menu
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../index.php">Accueil</a>
+                            </li>
                             <li class="nav-item ">
-                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Utilisateurs</a>
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Utilisateurs</a>
                                 <div id="submenu-1" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
@@ -67,9 +70,6 @@
                                 <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Live</a>
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="../index.php">Overview</a>
-                                        </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="audience.php">Audience</a>
                                         </li>
