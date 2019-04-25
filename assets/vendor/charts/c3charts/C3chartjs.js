@@ -267,8 +267,8 @@
                 bindto: "#c3chart_pie",
                 data: {
                     columns: [
-                        ['data1', 30],
-                        ['data2', 50]
+                        ['Femmes', 30],
+                        ['Hommes', 70]
                         
                       
 
