@@ -62,7 +62,7 @@ require 'header.php'; ?>
 	                                <div class="card-body">
 	                                    <div class="d-inline-block">
 	                                        <h5 class="text-muted">Total de spectateurs</h5>
-	                                        <h2 class="mb-0"> 1 028 056</h2>
+	                                        <h2 class="mb-0"> 508 056</h2>
 	                                    </div>
 	                                    <div class="float-right icon-circle-medium  icon-box-lg  bg-info-light mt-1">
 	                                        <i class="fa fa-eye fa-fw fa-sm text-info"></i>
@@ -236,7 +236,7 @@ require 'header.php'; ?>
 	                        <!-- ============================================================== -->
 	                        <div class="col-xl-5 col-lg-12 col-md-6 col-sm-12 col-12">
 	                            <div class="card">
-	                                <h5 class="card-header">Top Folllowes by Locations </h5>
+	                                <h5 class="card-header">Comparatif Spectateurs vs. Spectateurs VOGO</h5>
 	                                <div class="card-body">
 	                                    <canvas id="chartjs_bar_horizontal"></canvas>
 	                                </div>
@@ -253,7 +253,6 @@ require 'header.php'; ?>
 									<div class="container-fluid">
 										<div class="row">
 											<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-												Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
 											</div>
 											<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 												<div class="text-md-right footer-links d-none d-sm-block">

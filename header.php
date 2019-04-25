@@ -104,8 +104,8 @@
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">Statistique VOGO Tableau de bord</li>
+                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Statistiques</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page"><?=$title?></li>
                                         </ol>
                                     </nav>
                                 </div>
