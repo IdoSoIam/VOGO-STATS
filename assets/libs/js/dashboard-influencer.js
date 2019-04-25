@@ -7,8 +7,8 @@ $(function() {
     Morris.Donut({
         element: 'gender_donut',
         data: [
-            { value: 60, label: 'Female' },
-            { value: 40, label: 'Male' }
+            { value: 75, label: 'Hommes' },
+            { value: 25, label: 'Femmes' }
 
         ],
 
@@ -32,10 +32,10 @@ $(function() {
         type: 'horizontalBar',
 
         data: {
-            labels: ["US", "Brazil", "Canada", "UK", "Australia", "India", "China"],
+            labels: ['',"Spectateurs", "Spectateurs VOGO"],
             datasets: [{
-                label: 'Country',
-                data: [2800, 24000, 19000, 17000, 14000, 10000, 7000],
+                label: 'Spectateurs',
+                data: [0, 508056, 224763],
                 backgroundColor: "rgba(89, 105, 255, 1)",
 
             }]

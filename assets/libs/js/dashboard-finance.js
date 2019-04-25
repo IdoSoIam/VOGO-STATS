@@ -146,8 +146,8 @@ $(function() {
                 element: 'morris_gross',
 
                 data: [
-                    { value: 94, label: 'Budget' },
-                    { value: 15, label: '' }
+                    { value: 36, label: 'Utilisations VOGO' },
+                    { value: 54, label: 'Spectateurs' }
                    
                 ],
              
@@ -171,8 +171,8 @@ $(function() {
                 element: 'morris_profit',
 
                 data: [
-                    { value: 93, label: 'Profit' },
-                    { value: 15, label: '' }
+                    { value: 50, label: 'Actions' },
+                    { value: 50, label: 'Actions rejouées' }
                    
                 ],
              
@@ -326,10 +326,10 @@ $(function() {
         data: {
             // iris data from R
             columns: [
-                ['30 days', 120],
-                ['60 days', 70],
-                ['90 days', 50],
-                 ['90+ Days', 30],
+                ['Camera 1', 120],
+                ['Camera 2', 70],
+                ['Camera 3', 50],
+                 ['Camera 4', 30],
 
             ],
             type: 'pie',
@@ -359,32 +359,7 @@ $(function() {
     // ============================================================== 
 
     // // Use Morris.Area instead of Morris.Line
-    Morris.Area({
-        element: 'capital',
-        behaveLikeLine: true,
 
-
-
-        data: [
-            { x: '2010 Q1', y: 20000 },
-            { x: '2010 Q2', y: 24000 },
-            { x: '2010 Q3', y: 33000 },
-            { x: '2010 Q4', y: 40000 },
-            { x: '2011 Q1', y: 25000 },
-            { x: '2011 Q2', y: 70000 },
-            { x: '2011 Q3', y: 52000 },
-            { x: '2012 Q1', y: 39000 },
-            { x: '2012 Q2', y: 80000 }
-        ],
-        xkey: 'x',
-        ykeys: ['y'],
-        labels: ['Y'],
-        lineColors: ['#ff407b'],
-        preUnits: ["$"]
-
-
-
-    });
    
     // ============================================================== 
     // Working Capital
