@@ -76,6 +76,9 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="interaction.php">Interaction</a>
                                         </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="team-overview.php">Team-overview</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
